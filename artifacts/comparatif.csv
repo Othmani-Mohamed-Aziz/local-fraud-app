@@ -1,0 +1,5 @@
+modèle,type,PR-AUC val,PR-AUC test,ROC-AUC test,précision@k,rappel@k,alertes (seuil),F2,MCC,coût test ($),économie vs « rien faire » (%)
+XGBoost,Supervisé,0.9492,0.939,0.9985,0.3538,0.9718,2162,0.8481,0.7496,32663.59,95.5494
+Régression logistique pondérée,Supervisé,0.2805,0.2276,0.9232,0.1876,0.5152,6379,0.3316,0.261,223252.56,69.5805
+Isolation Forest,Non supervisé,0.1065,0.056,0.8839,0.088,0.2417,22195,0.151,0.142,328441.67,55.2478
+Autoencodeur (MLP),Non supervisé,0.0161,0.0117,0.6616,0.0219,0.06,20230,0.0459,0.0318,779826.91,-6.2562
